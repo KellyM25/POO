@@ -8,6 +8,28 @@ package Clase20241116;
  *
  * @author Kelly
  */
-public class Parlante {
+public class Parlante  {
+    private String Sonido;
+    private String Rendimiento;
     
+    public Parlante(String Sonido, String Rendimiento ){
+            this.Sonido = Sonido;
+            this.Rendimiento = Rendimiento;
+    }
+    
+    public String getSonido(){
+        return Sonido;
+    }
+    
+    public void setSonido(String Sonido){
+        this.Sonido = Sonido;
+    }
+    
+    public String getRendimiento(){
+        return Rendimiento;
+    }
+     
+    public void setRendimiento(String Rendiiento){
+        this.Rendimiento = Rendimiento;
+    }
 }
